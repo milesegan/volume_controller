@@ -27,11 +27,11 @@ extension AVAudioSession {
   }
 
   func deactivateAudioSession() {
-    do {
-      try setActive(false)
-    } catch {
-      print("Error deactivating audio session: \(error)")
-    }
+    // do {
+    //   try setActive(false)
+    // } catch {
+    //   print("Error deactivating audio session: \(error)")
+    // }
   }
 
   func setAudioSessionCategory() {
